@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #define ERR_MSG "Error"
-
 /**
  * is_digit - checks if a string contains a non-digit char
  * @s: string to be evaluated
@@ -38,7 +37,6 @@ int _strlen(char *s)
 	}
 	return (i);
 }
-
 /**
  * errors - handles errors for main
  */
